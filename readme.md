@@ -24,7 +24,6 @@ Note: The `?ref=***` refers a tag on the git module repo.
 module "<ces-system-env-001>" {
   source = "git::https://github.com/danilomnds/terraform-azurerm-email-communication-service?ref=v1.0.0" 
   name = "<ces-system-env-001>"
-  location = "<your-region>"
   resource_group_name = "<resource-group>"
   data_location = "<your data location>"
   # optional
